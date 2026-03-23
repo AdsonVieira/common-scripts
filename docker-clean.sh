@@ -12,7 +12,7 @@ echo ""
 read -p "Deseja continuar? (y/n): " confirm
 
 if [[ "$confirm" != "y" ]]; then
-  echo "❌ Operação cancelada."
+  echo "Operação cancelada."
   exit 1
 fi
 
